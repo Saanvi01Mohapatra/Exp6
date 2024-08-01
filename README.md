@@ -7,8 +7,8 @@ The for loop is a control flow statement used to repeat a block of code a specif
 
 ### CODE 1:
 
-//Sai sankar jena
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 
 #include<iostream>
 using namespace std;
@@ -26,8 +26,8 @@ int main()
 The while loop is a control flow statement that executes a block of code as long as a specified condition is true. It is used when the number of iterations is not known beforehand and depends on dynamic conditions.
 ### CODE 2:
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include <iostream>
 using namespace std;
 
@@ -47,8 +47,8 @@ The do-while loop is similar to the while loop, but it guarantees that the loop 
 ### CODE 3:
 
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include<iostream>
 using namespace std;
 int main()
@@ -66,8 +66,8 @@ int main()
 Nested for loops involve placing one for loop inside another. This is useful for iterating over multi-dimensional data structures, like matrices.
 ### CODE 4:
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include<iostream>
 using namespace std;
 int main()
@@ -90,8 +90,8 @@ int main()
 Nested while loops involve placing one while loop inside another. This structure is useful for more complex data traversal and processing.
 ### CODE 5:
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include <iostream>
 using namespace std;
 
@@ -115,8 +115,8 @@ Nested do-while loops involve placing one do-while loop inside another. They ens
 
 ### CODE 6:
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include <iostream>
 using namespace std;
 
@@ -140,8 +140,8 @@ Combining for loops with while loops can be useful for more complex iteration sc
 
 ### CODE 7:
 
-//SAI SANKAR JENA
-//23070123112
+//Saanvi Mohapatra
+//23070123110
 #include<iostream>
 using namespace std;
 int main()
@@ -166,9 +166,6 @@ int main()
    return 0;
 
 }
-
-
-
 ## Conclusion
 
 - *For Loops*: Ideal for counting and iterating over a known number of iterations, offering a compact and readable syntax.
