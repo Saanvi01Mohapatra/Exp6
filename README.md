@@ -22,6 +22,19 @@ int main()
     return 0;
 }
 ```
+## Output:
+```
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+Hello sir
+```
 ## WHILE LOOP:
 The while loop is a control flow statement that executes a block of code as long as a specified condition is true. It is used when the number of iterations is not known beforehand and depends on dynamic conditions.
 ### CODE 2:
@@ -42,6 +55,10 @@ int main() {
     return 0;
 }
 ```
+## Output:
+```
+1 2 3 4 5 6 7 8 9 10
+```
 ### DO-WHILE
 The do-while loop is similar to the while loop, but it guarantees that the loop body executes at least once. The condition is checked after the execution of the loop body.
 ### CODE 3:
@@ -61,6 +78,20 @@ int main()
     } while (i<=10);
     return 0;
 }
+```
+## Output:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
 ```
 ### NESTED FOR LOOPS
 Nested for loops involve placing one for loop inside another. This is useful for iterating over multi-dimensional data structures, like matrices.
@@ -86,6 +117,19 @@ int main()
     return 0;
 }
 ```
+## Output:
+```
+Enter any number for index number: 002
+Enter any number for index number: 013
+Enter any number for index number: 025
+Enter any number for index number: 104
+Enter any number for index number: 117
+Enter any number for index number: 126
+Enter any number for index number: 2012
+Enter any number for index number: 2134
+Enter any number for index number: 2278
+The sum of elements of matrix is:151
+```
 ### NESTED WHILE LOOPS
 Nested while loops involve placing one while loop inside another. This structure is useful for more complex data traversal and processing.
 ### CODE 5:
@@ -109,6 +153,14 @@ int main() {
 
     return 0;
 }
+```
+## Output:
+```
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
 ```
 ### NESTED DO WHILE LOOPS
 Nested do-while loops involve placing one do-while loop inside another. They ensure that the inner loop executes at least once per outer loop iteration.
@@ -134,6 +186,14 @@ int main() {
 
     return 0;
 }
+```
+## Output:
+```
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
 ```
 ### NESTED FOR WITH A WHILE LOOP
 Combining for loops with while loops can be useful for more complex iteration scenarios, allowing for flexible loop control within a nested structure.
@@ -166,6 +226,18 @@ int main()
    return 0;
 
 }
+```
+## Output:
+```
+Enter number of rows: 7
+           * 
+         *  *  * 
+       *  *  *  *  * 
+     *  *  *  *  *  *  * 
+   *  *  *  *  *  *  *  *  * 
+ *  *  *  *  *  *  *  *  *  *  * 
+* *  *  *  *  *  *  *  *  *  *  *  *  
+
 ```
 ## Conclusion
 
