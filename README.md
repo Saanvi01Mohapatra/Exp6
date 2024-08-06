@@ -202,30 +202,37 @@ Combining for loops with while loops can be useful for more complex iteration sc
 ```
 //Saanvi Mohapatra
 //23070123110
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-   int i,j,k=0,n;
-   cout<<"Enter number of rows: ";
-   cin>>n;
-   for(i=1;i<=n;i++)
-   {
-    for(j=1;j<(n-i);j++)
-    {
-        cout<<"  ";
-    }
-    while (k!=(2*i-1))
-    {
-        cout<<" * ";
-        k++;
-    }
-    k=0;
-    cout<<endl;
-   } 
-   return 0;
 
+int main() {
+    int rows;
+
+    // Get the number of rows from the user
+    cout << "Enter the number of rows: ";
+    cin >> rows;
+
+    // Outer loop for each row
+    for (int i = 1; i <= rows; ++i) {
+        // Inner loop for printing spaces
+        for (int j = i; j < rows; ++j) {
+            cout << " ";
+        }
+
+        // While loop for printing asterisks
+        int k = 0;
+        while (k != 2 * i - 1) {
+            cout << "*";
+            ++k;
+        }
+
+        // Move to the next line
+        cout << endl;
+    }
+
+    return 0;
 }
+
 ```
 ## Output:
 ```
